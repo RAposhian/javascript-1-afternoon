@@ -36,7 +36,7 @@ var devMountainGoal = null;
 //plus the value of the name parameter.
 
 //Code here
-function nameFunc(name) {
+function greeting(name) {
   return "Hello, " + name;
 }
 //////////////////PROBLEM 7////////////////////
@@ -86,9 +86,9 @@ let devMountainClassPet = dog.name;
 // Code here
 function nameCheck(name){
   if(name === 'Steven'){
-    return 'Hello, Steven';
+    return 'What is up Steven?';
   } else if(name === 'Bryan'){
-    return 'Hey Bryan';
+    return 'Hey Bryan!';
   } else {
     return `Cool name, ${name}`;
   }
@@ -108,7 +108,7 @@ function add(num1, num2) {
 //storing the result in the variable mathSum.
 
 //Code Here
-let sum = add(3, 4);
+let mathSum = add(3, 4);
 //////////////////PROBLEM 12////////////////////
 
 //Write a function called faveColorFinder that takes in one parameter called color
@@ -120,14 +120,14 @@ let sum = add(3, 4);
 
 // Code here
 function faveColorFinder(color) {
-  if(color === 'Red') {
-    return 'Red is a great color!'
-  } else if(color === 'Green') {
-    return 'Green is a solid favorite color!'
-  } else if(color === 'Black') {
-    return 'So trendy!'
+  if(color === 'red') {
+    return 'red is a great color'
+  } else if(color === 'green') {
+    return 'green is a solid favorite color'
+  } else if(color === 'black') {
+    return 'so trendy'
   } else {
-    return 'You need to evaluate your favorite color choice';
+    return 'you need to evaluate your favorite color choice';
   }
 }
 //////////////////PROBLEM 13////////////////////
